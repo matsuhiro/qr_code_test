@@ -1,4 +1,4 @@
-name: qr_code_test
+name: qr_sample
 description: A new Flutter project.
 
 # The following defines the version and build number for your application.
@@ -14,11 +14,14 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  qr_flutter: ^3.1.0
+  permission_handler: ^4.0.0
+  flutter_qr_reader: ^1.0.3
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
